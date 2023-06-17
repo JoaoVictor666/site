@@ -1,0 +1,97 @@
+/* Estilos personalizados */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+section {
+  padding: 40px 0;
+}
+
+#banner {
+  background-color: #e6f3f8;
+  text-align: center;
+}
+
+#banner h1 {
+  color: #0080b3;
+  font-size: 36px;
+}
+
+#banner p {
+  color: #555;
+  font-size: 18px;
+}
+
+#sobre {
+  background-color: #f8f8f8;
+}
+
+#sobre h2 {
+  color: #0080b3;
+  font-size: 28px;
+}
+
+#sobre p {
+  color: #333;
+}
+
+#servicos {
+  background-color: #f1f1f1;
+}
+
+#servicos h2 {
+  color: #0080b3;
+  font-size: 28px;
+}
+
+.card {
+  border: none;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #333;
+  font-size: 20px;
+}
+
+.card-text {
+  color: #555;
+}
+
+#contato {
+  background-color: #e6f3f8;
+}
+
+#contato h2 {
+  color: #0080b3;
+  font-size: 28px;
+}
+
+.form-label {
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #0080b3;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #006699;
+}
