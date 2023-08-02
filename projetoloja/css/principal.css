@@ -1,0 +1,41 @@
+
+@keyframes rotate {
+    0% {
+      transform: rotateX(0deg);
+    }
+    100% {
+      transform: rotateX(90deg);
+    }
+  }
+  
+
+.card {
+    width: 18rem;
+    margin-bottom: 5rem;
+    margin-left: .9rem;
+    margin-right: .9rem;
+}
+
+@media screen and (max-width: 768px) {
+    .col {
+        flex: 50%;
+    }
+    .cartao-carosel{
+        width: 20rem;
+        height: 20rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+}
+
+
+.carousel-inner {
+    animation: rotate 2s;
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
